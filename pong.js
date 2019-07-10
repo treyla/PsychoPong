@@ -19,7 +19,6 @@ class Rectangle {
     constructor(x = 0, y = 0) {
         this.position = new Vector(0, 0);
         this.size = new Vector(x, y);
-        // this.color = color === null ? '#FFF' : color;
     }
 
     get left() {
